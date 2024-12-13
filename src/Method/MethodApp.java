@@ -6,5 +6,11 @@ public class MethodApp {
 
         System.out.println(h.penjumlahan(2, 2));
         System.out.println(h.pengurangan(4, 2));
+
+        sayHelloWorld();
+    }
+
+    static void sayHelloWorld() {
+        System.out.println("Hello World");
     }
 }
